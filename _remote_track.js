@@ -2,7 +2,7 @@
 if (window.location.href.search("[?&]_novisit=on") != -1) return;
 var xhr = new XMLHttpRequest();
 xhr.withCredentials = true;
-xhr.open("GET", "https://tibtrck.com/_remote_track?campaign=" + escape("") + "&referrer=" + escape(document.referrer) + "&uri=" + escape(window.location.href), true);
+xhr.open("GET", "https://adxplatino.github.io/re-4/_remote_track?campaign=" + escape("") + "&referrer=" + escape(document.referrer) + "&uri=" + escape(window.location.href), true);
 xhr.onload = function() {
     if (xhr.status !== 200) return;
     if (xhr.getResponseHeader("Struct-Response") !== "true") {
